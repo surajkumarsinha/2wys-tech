@@ -1,6 +1,8 @@
 <h2>The project Boiler plate</h2>
 <h4>To be updated</h4>
-```bash
+
+```
+bash
 
 
 < PROJECT ROOT >
