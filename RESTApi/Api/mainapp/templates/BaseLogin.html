@@ -1,0 +1,51 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+  <title>Login</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+
+  <style>
+/*       
+    .box{
+      background: url({% static "/img/21-login.jpg" %});
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      box-shadow: inset 0px 0px 100px black;
+    } */
+    .contenido
+    {
+      background-color: transparent;
+      height: 55vh;
+      border-radius: 10px;
+
+      box-shadow: 0px 0px 60px black;
+    }
+
+  </style>
+  <body>
+
+  <header>
+      <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+        <div><a class="navbar-brand" href="/api/Acutes/SignIn/">Click here to go back</a></div>
+      </nav>
+  </header>
+
+
+{% block content_login %}
+  
+{% endblock content_login %}
+
+
+    <script src="{%static 'js/jquery.js' %}"></script>
+    <script src="{%static 'js/tether/dist/js/tether.min.js' %}"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>

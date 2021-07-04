@@ -1,0 +1,22 @@
+{% extends "BasePassword.html" %}
+{% load static %}
+
+{% block content_password %}<section class="container-fluid">
+    <div class="row justify-content-center box">
+      <div class="col-sm-8 col-md-6 col-lg-5 align-self-center contenido">
+        <div class="row justify-content-center" style="height: 55vh;">
+          <div class="col-sm-12 col-md-12 col-lg-10 align-self-center">
+            <center>
+                <div class="form-group">
+                <h3 style="color:white;">The Password has been reset</h3> 
+                <button type="button" style="background-color: #3a906d; color:white;" class="btn btn-primary colorbtn" onclick="location.href='/api/Acutes/SignIn/';">Click to SignIn</button>
+                </div>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+	
+	
+{% endblock content_password %}

@@ -1,0 +1,7 @@
+Please do not reply to this message.
+Click on the given link to reset password for {{user.get_username}} 
+
+
+{% block reset_link %}
+http://{{ domain }}{% url 'web:password_reset_confirm' uidb64=uid  token=token%}
+{% endblock reset_link %}
