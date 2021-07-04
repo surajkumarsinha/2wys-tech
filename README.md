@@ -87,14 +87,24 @@ bash
 
    <h3>Pip Requirements</h3>
    <ul>
-      <li>djangorestframework
-      <li>django-cors-headers
-      <li>mysqlclient
-      <li>djangorestframework_simplejwt
-      <li>djoser
-      <li>django-recaptcha
-      <li>django-axes
-      <li>pyjwt
+      <li>asgiref==3.2.10
+      <li>Django==3.1.1
+      <li>django-appconf==1.0.4
+      <li>django-cors-headers==3.5.0
+      <li>django-ipware==3.0.1
+      <li>django-restframework==0.0.1
+      <li>django-templated-mail==1.1.1
+      <li>djangorestframework==3.11.1
+      <li>djangorestframework-simplejwt==4.4.0
+      <li>djoser==2.0.5
+      <li>PyJWT==1.7.1
+      <li>pytz==2020.1
+      <li>sqlparse==0.3.1
+      <li>cryptography~=3.1
+      <li>Pillow~=7.2.0
+      <li>PyPDF2~=1.26.0
+      <li>six~=1.15.0
+      <li>requests~=2.24.0
    </ul>
 
 ```
